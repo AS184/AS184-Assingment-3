@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Owner"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-24 12:30:32 AM"/>
+        <attribute name="created" value="T3duZXI7REVTS1RPUC1TSTNVUU5QOzIwMjQtMDQtMjM7MTE6NDc6MjYgUE07MjkxOQ=="/>
+        <attribute name="edited" value="T3duZXI7REVTS1RPUC1TSTNVUU5QOzIwMjQtMDQtMjQ7MTI6MzA6MzIgQU07MTszMDAz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="radius, area, perimeter" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter the radius&quot;" newline="True"/>
+            <input variable="radius"/>
+            <assign variable="area" expression="radius * pi ^ 2"/>
+            <assign variable="perimeter" expression="2 * pi * radius"/>
+            <output expression="&quot;Radius is &quot; &amp; radius &amp; &quot; area is &quot; &amp; area &amp; &quot; the perimeter is &quot; &amp; perimeter" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
